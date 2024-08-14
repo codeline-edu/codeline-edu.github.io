@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    height: 70px;
+    background-color: rgb(34, 34, 34);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.CLlogo {
+    width: 70px;
+    height: 70px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.signup-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #218838;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.detail-btn, .trial-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.detail-btn:hover, .trial-btn:hover {
+    background-color: #218838;
+}
+
+.editor-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.editor-images img {
+    max-width: 45%;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
