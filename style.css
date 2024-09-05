@@ -247,17 +247,15 @@ nav a {
 }
 
 h1 {
-    text-align: center;
     font-size: 32px;
     margin-bottom: 30px;
     color: #ffffff; /* Цвет текста заголовка */
 }
 
 .learning-plan {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    justify-content: center; /* Центрирование блоков */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .plan-block {
@@ -272,6 +270,7 @@ h1 {
     font-size: 18px;
     border-radius: 20px;
     color: #ffffff; /* Цвет текста блоков */
+    margin-bottom: 50px;
 }
 
 .plan-block-header {
