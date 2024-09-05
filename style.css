@@ -8,12 +8,13 @@ body {
 
 .gradient {
     background-image: url("img/gradient.svg");
+    background-repeat: no-repeat;
 }
 
 .header {
     position: sticky;
     top: 0;
-    z-index: 10; /* Не так высокое значение как в "фиксированном" варианте, но всё же выше обычного контента */
+    z-index: 10;
   }
 ::-webkit-scrollbar {
     width: 10px;
@@ -38,6 +39,7 @@ body {
 .width-content {
     max-width: 1400px;
     margin: 0px auto;
+
 }
 header {
     display: flex;
@@ -232,7 +234,7 @@ nav a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #333333; /* Фон страницы */
+    background-color: #222222; /* Фон страницы */
     color: #ffffff; /* Цвет текста */
     display: flex;
     justify-content: center;
@@ -269,7 +271,7 @@ h1 {
     justify-content: space-between;
     padding: 20px;
     font-size: 18px;
-    border-radius: 5px;
+    border-radius: 20px;
     color: #ffffff; /* Цвет текста блоков */
 }
 
