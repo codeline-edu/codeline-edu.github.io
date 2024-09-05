@@ -188,8 +188,7 @@ nav a {
     margin-top: 30px;
 }
 .what-you-get-block {
-    flex: 0 1 calc(25% - 15px);
-    background-color: #444;
+    flex: 0 1 calc(15% - 15px);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
@@ -207,10 +206,10 @@ nav a {
     justify-content: center;
 }
 .what-you-get-image {
-    width: 120px;
-    height: 120px;
-    background-color: #555;
-    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
     margin: 20px auto 0;
 }
 .organization-details {
@@ -556,4 +555,23 @@ footer .footer-bottom {
     font-size: 14px;
     border-top: 1px solid #444;
     padding-top: 20px;
+}
+
+
+#discord {
+    background-image: url(img/discord.svg);
+
+}
+
+#project {
+    background-image: url(img/project.svg);
+
+}
+
+#practice {
+    background-image: url(img/practice.svg);
+}
+
+#job {
+    background-image: url(img/job.svg);
 }
