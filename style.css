@@ -112,6 +112,7 @@ body {
 .gradient {
     background-image: url("img/gradient.svg");
     background-repeat: no-repeat;
+    object-fit: cover;
     width: 100%;
 }
 
