@@ -33,6 +33,14 @@ body {
 
 
 
+#oskar {
+    background-image: url("img/photo.png");
+}
+
+#nikolay {
+    background-image: url("img/photo2.png");
+    background-repeat: no-repeat;
+}
 
 .burger-checkbox {
     position: absolute;
@@ -263,8 +271,8 @@ nav a {
     max-width: 300px;
 }
 .team-member-photo {
-    width: 200px;
-    height: 200px;
+    width: 314px;
+    height: 208px;
     background-color: #444;
     border-radius: 20px;
     margin: 0 auto 20px;
