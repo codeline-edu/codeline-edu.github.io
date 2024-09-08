@@ -265,6 +265,7 @@ nav a {
     justify-content: space-evenly;
     gap: 50px;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 .team-member {
     text-align: center;
