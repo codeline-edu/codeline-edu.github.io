@@ -36,7 +36,6 @@ body {
         gap: 25px;
     }
     .allpay {
-        align-items: center;
         height: 1250px;
     }
   }
@@ -428,11 +427,11 @@ h1 {
     font-family: Arial, sans-serif;
     margin-top: 50px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 .paycontain {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 475px;
     margin-bottom: 130px;
 }
