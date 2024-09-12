@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+<head>  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Онлайн обучение Frontend разработке ауе жизнь ворам</title>
+    <title>Онлайн обучение Frontend разработке</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
@@ -21,17 +21,17 @@
             <button class="cta-button">Записаться на пробное</button>
         </nav>
 
-        <div class="navSlider">
+        <div class="menu">
             <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
             <label for="burger-checkbox" class="burger"></label>
             <ul class="menu-list">
                 <li><a href="#" class="menu-item">О нас</a><li>
                 <li><a href="#" class="menu-item">Карта обучения</a><li>
                 <li><a href="#" class="menu-item">Цены</a><li>
-                <li><img src="img/telegram.svg" alt="telegram"><li>
-                    <li><button class="cta-button">Записаться на пробное</button></li>
+                <li><a href="#" class="menu-item">Контакты</a><li>
             </ul>
         </div>
+
     </header>   
 
 
@@ -57,12 +57,12 @@
         <p>CodeLine - команда молодых и заряженных разработчиков с реальным опытом в IT и EdTech сфере (преподавание))))</p>
         <div class="team-members">
             <div class="team-member">
-                <div class="team-member-photo"></div>
+                <div class="team-member-photo" id="oskar"></div>
                 <h3>Оскар</h3>
                 <p>Frontend разработчик с 6 летним опытом в IT сфере, на протяжении 4 лет активно работал в EdTech и в целом очень крутой чел.</p>
             </div>
             <div class="team-member">
-                <div class="team-member-photo"></div>
+                <div class="team-member-photo" id="nikolay"></div>
                 <h3>Колян</h3>
                 <p>Дизайнер и верстальщик с 4х летним опытом в сфере разработки веб-сайтов и приложений. Последние 2 года работал учителем информатики в школе.</p>
             </div>
@@ -71,7 +71,9 @@
     <div class="edtech-problems" id="problems">
         <h2>Проблемы EdTech сферы</h2>
         <div class="edtech-problems-text">
-            На данный момент можно наблюдать, что большинство курсов, школ и остальных ресурсов рассчитаны либо на людей которые уже какое-то время в IT, либо для совсем юных учеников, также информация которая встречается в курсах может не поспевать за быстро развивающимися технологиями.
+            Сейчас большинство курсов, школ и остальных ресурсов нанимает “программистов” без фактического опыта разработки (чекайте hh и их зп, какой квалифицированный программист пойдет туда?) либо учителей
+c “лучшей подачей в мире” (ну вы хоть один курс смотрели?.....)
+Все упирается в 2 варианта либо вы будете слушать нудного, но реально опытного прогера, либо какого то чела c MacBook’ом сидящего в StarBucks с нулевыми знаниями.
         </div>
     </div>
     <div class="who-is-it-for" id="who-is-it-for">
@@ -102,29 +104,30 @@
             </div>
         </div>
     </div>
+
 </div>
     <div class="organization" id="organization">
         <h2>Организация занятий</h2>
         <div class="organization-details">
             <div class="organization-item">
-                <span>&#10003;</span> Занятия проходят на онлайн платформе Discord
+                <span><img src="img/Strelki.svg" alt="."></span> Занятия проходят на онлайн платформе Discord
             </div>
             <div class="organization-item">
-                <span>&#10003;</span> Длительность занятий 2 часа
+                <span><img src="img/Strelki.svg" alt="."></span> Длительность занятий 2 часа
             </div>
             <div class="organization-item">
-                <span>&#10003;</span> Периодичность занятий - один раз в неделю
+                <span><img src="img/Strelki.svg" alt="."></span> Периодичность занятий - один раз в неделю
             </div>
             <div class="organization-item">
-                <span>&#10003;</span> Фидбек о домашках и проектах
+                <span><img src="img/Strelki.svg" alt="."></span> Фидбек о домашках и проектах
             </div>
             <div class="organization-item">
-                <span>&#10003;</span> Уроки записываются и сохраняются для просмотра
+                <span><img src="img/Strelki.svg" alt="."></span> Уроки записываются и сохраняются для просмотра
             </div>
         </div>
     
     </div>
-    <div class="plans">
+    <!-- <div class="plans">
     <div class="container">
         <h1>План обучения</h1>
         <div class="learning-plan">
@@ -172,9 +175,12 @@
             </div>
         </div>
     </div>
-    </div>
+    </div> -->
     
+    <div class="gradient">
+        <h1>Стоимость обучения</h1>
     <div class="allpay">
+
     <div class="paycontain">
         <div class="block">
             <div class="top-block">
@@ -209,6 +215,7 @@
             <div class="price-per-lesson">1250 руб за занятие</div>
         </div>
     </div>
+
         <div class="block">
             <div class="top-block">
             <div class="block-text">Полная оплата</div>
@@ -227,7 +234,7 @@
         </div>
     </div>
 </div>
-<div class="feedback-form-info">
+<!-- <div class="feedback-form-info">
 <div class="feedcontainer">
     <div class="feed-content">
         <div class="feedback-form">
@@ -259,21 +266,28 @@
         <p>Наши соцсети: Дополнительная информация или копирайт</p>
     </div>
 </div>
+</div> -->
 </div>
 <div class="faq-container">
     <h1>Часто задаваемые вопросы</h1>
     <div class="faq-item">
-        <div class="faq-question">Вопрос 1?</div>
-        <div class="faq-answer">Ответ на вопрос 1.</div>
+        <div class="faq-question">Подойдет ли обучение новичкам?</div>
+        <div class="faq-answer">Да! Вам не нужно обладать специальными знаниями. Вы можете приступить к обучение будучи полным новичком в сфере программирования. Главное желание :)</div>
     </div>
     <div class="faq-item">
-        <div class="faq-question">Вопрос 2?</div>
-        <div class="faq-answer">Ответ на вопрос 2.</div>
+        <div class="faq-question">На сколько расчитано обучение и сколько в неделю необходимо времени?</div>
+        <div class="faq-answer">Обучение рассчитано на 2 года. В неделю проходит одно занятие продолжительностью 2 часа. 
+            На успешное освоение и закрепление знаний необходимо 3-4 часа в неделю, которые включают в себя выполнение домашних заданий.</div>
     </div>
     <div class="faq-item">
-        <div class="faq-question">Вопрос 3?</div>
-        <div class="faq-answer">Ответ на вопрос 3.</div>
+        <div class="faq-question">Будут ли занятия в записи?</div>
+        <div class="faq-answer">Да, все занятия будут в записи и к ним всегда можно будет вернуться в любое удобное для вас время.</div>
     </div>
+    <div class="faq-item">
+        <div class="faq-question">Как оплатить?</div>
+        <div class="faq-answer">Для уточнения реквизитов интересующего вас тарифа свяжитесь с нами по номеру +7 (982) 770-24-50</div>
+    </div>
+    
 </div>
 
     <script>
@@ -293,15 +307,14 @@
                 <li><a href="#">Договор-оферты</a></li>
                 <li><a href="#">Обработка персональных данных</a></li>
                 <li><a href="#">Способ оплаты</a></li>
-                <li><a href="#">Рассрочка от Сбербанк</a></li>
+                <li><a href="#">Рассрочка</a></li>
                 <li><a href="#">Блог</a></li>
             </ul>
         </div>
         <div class="footer-section footer-contact">
-            <p>ИП Васильев Оскар Абдувалиевич</p>
+            <p>Школа программирования CodeLine</p>
             <p>ИНН блаблаблаблабла</p>
-            <p>ОГРНИП блаблаблаблабла</p>
-            <p>г. Тюмень, дом 673, по улице хуй соси, 123317</p>
+            <p>г. Тюмень, Петра Ершова, дом 10, 625062</p>
             <p>+7 982 770-24-50</p>
             <p>Техническая поддержка</p>
             <p><a href="mailto:codline.edu@gmail.com">codline.edu@gmail.com</a></p>
